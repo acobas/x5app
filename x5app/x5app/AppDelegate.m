@@ -7,8 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "x5lib.h"
 
 @implementation AppDelegate
+
+- (IBAction)callLibrary:(id)sender
+{
+    X5LMain *lib = [[X5LMain alloc] init];
+    [lib showAlert];
+}
+
+#pragma mark UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

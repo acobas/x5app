@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC005F3C17DD3F5100D9DEE2 /* libx5lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC005F3B17DD3F5100D9DEE2 /* libx5lib.a */; };
 		DC02F9B617D816E800B0ADD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02F9B517D816E800B0ADD8 /* Foundation.framework */; };
 		DC02F9B817D816E800B0ADD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02F9B717D816E800B0ADD8 /* CoreGraphics.framework */; };
 		DC02F9BA17D816E800B0ADD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC02F9B917D816E800B0ADD8 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC005F3B17DD3F5100D9DEE2 /* libx5lib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libx5lib.a; path = "../../Libraries/x5lib/x5lib/build/Debug-iphoneos/libx5lib.a"; sourceTree = "<group>"; };
 		DC02F9B217D816E800B0ADD8 /* x5app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x5app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC02F9B517D816E800B0ADD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC02F9B717D816E800B0ADD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC005F3C17DD3F5100D9DEE2 /* libx5lib.a in Frameworks */,
 				DC02F9B817D816E800B0ADD8 /* CoreGraphics.framework in Frameworks */,
 				DC02F9BA17D816E800B0ADD8 /* UIKit.framework in Frameworks */,
 				DC02F9B617D816E800B0ADD8 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		DC02F9B417D816E800B0ADD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC005F3B17DD3F5100D9DEE2 /* libx5lib.a */,
 				DC02F9B517D816E800B0ADD8 /* Foundation.framework */,
 				DC02F9B717D816E800B0ADD8 /* CoreGraphics.framework */,
 				DC02F9B917D816E800B0ADD8 /* UIKit.framework */,
@@ -390,6 +394,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "x5app/x5app-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Libraries/x5lib/x5lib/x5lib\"";
 				INFOPLIST_FILE = "x5app/x5app-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -403,6 +408,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "x5app/x5app-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Libraries/x5lib/x5lib/x5lib\"";
 				INFOPLIST_FILE = "x5app/x5app-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -468,6 +474,7 @@
 				DC02F9E917D816E800B0ADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC02F9EA17D816E800B0ADD8 /* Build configuration list for PBXNativeTarget "x5appTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				DC02F9EC17D816E800B0ADD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

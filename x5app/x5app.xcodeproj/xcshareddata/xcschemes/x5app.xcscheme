@@ -20,6 +20,20 @@
                ReferencedContainer = "container:x5app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC57A05917DD3370004EDC42"
+               BuildableName = "libx5lib.a"
+               BlueprintName = "x5lib"
+               ReferencedContainer = "container:../../Libraries/x5lib/x5lib/x5lib.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
