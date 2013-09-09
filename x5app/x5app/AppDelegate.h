@@ -14,4 +14,6 @@
 
 - (IBAction)callLibrary:(id)sender;
 
+- (IBAction)callLibrary3:(id)sender;
+
 @end
