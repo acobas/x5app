@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4B67C795-11C6-4985-A5CD-1DD269828CEA</string>
+	<string>B81D72A0-A5E9-41B7-9CB6-5FB1981B99C8</string>
 	<key>IDESourceControlProjectName</key>
 	<string>x5</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -23,6 +23,11 @@
 		<string>../../Libraries/x5lib</string>
 		<key>86467606-24D0-4D15-ACC4-50CB2F0499F6</key>
 		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRequiredConfigurationsDictionary</key>
+	<dict>
+		<key>00D786E8-C968-49B7-8B4E-F94A33F86C07</key>
+		<true/>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/acobas/x5app.git</string>
